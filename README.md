@@ -11,3 +11,6 @@ import shutil
 import sys  
 import subprocess  
 ```
+os，shutil和sys库：用于获取启动文件夹路径并复制
+subprocess:用于结束文件资源管理器进程
+
