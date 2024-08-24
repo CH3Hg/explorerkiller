@@ -28,7 +28,15 @@ script_name = os.path.basename(sys.argv[0])
 def is_file_in_startup_folder(startup_folder, file_name):
     return file_name in os.listdir(startup_folder)
 ```
-检查是否已经复制  
+定义检查文件是否存在函数    
+```
+def copy_self_to_startup(startup_folder, script_path, script_name):
+    destination_path = os.path.join(startup_folder, script_name)
+    shutil.copyfile(script_path, destination_path)
+    print(f"Copied {script_name} to {destination_path}")
+```
+定义复制文件函数  
+
 
 
 
