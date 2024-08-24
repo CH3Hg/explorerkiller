@@ -15,6 +15,7 @@ import subprocess
 ```
 os，shutil和sys库：用于获取启动文件夹路径并复制  
 subprocess:用于结束文件资源管理器进程  
+### 复制到启动文件夹
 ```
 startup_folder = os.path.join(os.getenv('APPDATA'), 'Microsoft', 'Windows', 'Start Menu', 'Programs', 'Startup')
 ```
