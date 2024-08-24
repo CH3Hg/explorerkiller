@@ -18,4 +18,6 @@ subprocess:用于结束文件资源管理器进程
 ```
 startup_folder = os.path.join(os.getenv('APPDATA'), 'Microsoft', 'Windows', 'Start Menu', 'Programs', 'Startup')
 ```
+获取系统的启动文件夹路径  
+
 
