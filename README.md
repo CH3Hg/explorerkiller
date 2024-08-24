@@ -47,3 +47,6 @@ else:
 ```
 subprocess.run(['taskkill','/im','explorer.exe','/f'])
 ```
+## 其他参数
+运行系统：windows10（后续会支持更多版本）  
+编译器：pyinstaller
