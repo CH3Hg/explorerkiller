@@ -44,6 +44,8 @@ else:
 ```
 调用检查文件和复制文件函数，检查是否已有文件，假如没有，复制程序  
 ### 结束文件资源管理器
+```
+subprocess.run(['taskkill','/im','explorer.exe','/f'])
 
 
 
