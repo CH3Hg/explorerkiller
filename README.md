@@ -51,3 +51,6 @@ subprocess.run(['taskkill','/im','explorer.exe','/f'])
 运行系统：windows10（后续会支持更多版本）  
 编译器：pyinstaller v6.10.0  
 python:3.13.0  
+## 如何自己修改本程序并编译
+1.下载并安装python  
+2.在终端切到程序所在路径，运行“pyinstaller -F 程序名称.py”（请确认安装了pyinstaller）
