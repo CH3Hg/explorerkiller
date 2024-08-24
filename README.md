@@ -46,10 +46,4 @@ else:
 ### 结束文件资源管理器
 ```
 subprocess.run(['taskkill','/im','explorer.exe','/f'])
-
-
-
-
-
-
-
+```
