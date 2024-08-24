@@ -23,6 +23,12 @@ startup_folder = os.path.join(os.getenv('APPDATA'), 'Microsoft', 'Windows', 'Sta
 script_name = os.path.basename(sys.argv[0])
 ```
 获取程序名称  
+```
+def is_file_in_startup_folder(startup_folder, file_name):
+    return file_name in os.listdir(startup_folder)
+```
+检查是否已经复制  
+
 
 
 
