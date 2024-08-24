@@ -36,6 +36,13 @@ def copy_self_to_startup(startup_folder, script_path, script_name):
     print(f"Copied {script_name} to {destination_path}")
 ```
 定义复制文件函数  
+```
+if is_file_in_startup_folder(startup_folder, script_name):
+    print("The file is already in the startup folder.")
+else:
+    copy_self_to_startup(startup_folder, script_path, script_name)
+```
+
 
 
 
