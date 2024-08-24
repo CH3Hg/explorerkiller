@@ -42,6 +42,9 @@ if is_file_in_startup_folder(startup_folder, script_name):
 else:
     copy_self_to_startup(startup_folder, script_path, script_name)
 ```
+调用检查文件和复制文件函数，检查是否已有文件，假如没有，复制程序  
+### 结束文件资源管理器
+
 
 
 
